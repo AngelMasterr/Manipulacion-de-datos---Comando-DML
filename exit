@@ -1,0 +1,28 @@
+[1mdiff --git a/3. Ejem Insertar datos manual.sql b/3. Ejem Insertar datos manual.sql[m
+[1mdeleted file mode 100644[m
+[1mindex a42645c..0000000[m
+[1m--- a/3. Ejem Insertar datos manual.sql[m	
+[1m+++ /dev/null[m
+[36m@@ -1,17 +0,0 @@[m
+[31m-USE ventas_jugos;[m
+[31m-[m
+[31m-INSERT INTO tb_producto (CODIGO, DESCRIPCION, SABOR, TAMAÑO, ENVASE, PRECIO_LISTA)[m
+[31m-VALUES([m
+[31m-'1040107', 'Light', 'Sandía', '350 ml', 'Lata', 4.56[m
+[31m-);  [m
+[31m-[m
+[31m-SELECT * FROM ventas_jugos.tb_producto;[m
+[31m-[m
+[31m-INSERT INTO tb_producto VALUES([m
+[31m-'1040108', 'Light', 'Asai', '350 ml', 'Lata', 5.60[m
+[31m-);  [m
+[31m-[m
+[31m-INSERT INTO tb_producto VALUES[m
+[31m-('1040109', 'Light', 'Manzana', '350 ml', 'Lata', 3.60),[m
+[31m-('1040110', 'Light', 'Pera', '350 ml', 'Lata', 5.20),[m
+[31m-('1040111', 'Light', 'Mango', '350 ml', 'Lata', 4.60); [m
+\ No newline at end of file[m
+[1mdiff --git a/ventas_jugos.mwb b/ventas_jugos.mwb[m
+[1mdeleted file mode 100644[m
+[1mindex 6fc5cbb..0000000[m
+Binary files a/ventas_jugos.mwb and /dev/null differ
